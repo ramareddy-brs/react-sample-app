@@ -11,9 +11,9 @@ const RockPaperScissor = () => {
   const [computerScore, setComputerScore] = useState(0);
 
   const choices = [
-    { url: '/assets/images/rock.jpg' },
-    { url: '/assets/images/paper.jpg' },
-    { url: '/assets/images/scissors.jpg' }
+    { url: './assets/images/rock.jpg' },
+    { url: './assets/images/paper.jpg' },
+    { url: './assets/images/scissors.jpg' }
   ];
 
   const startGame = () => {
